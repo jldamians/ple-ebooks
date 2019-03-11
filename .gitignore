@@ -1,0 +1,8 @@
+# Logs
+*.log
+
+# Node dependency directory
+node_modules
+
+# Images
+*.png
