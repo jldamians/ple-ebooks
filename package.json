@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jldamians/accounting-electronic-book/issues"
   },
-  "homepage": "https://github.com/jldamians/accounting-electronic-book#readme"
+  "homepage": "https://github.com/jldamians/accounting-electronic-book#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
 }
