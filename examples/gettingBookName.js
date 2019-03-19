@@ -17,7 +17,5 @@ const bookName = new ElectronicBookName(
 
 console.log(bookName.getText())
 
-/*
-old -> LE1008105265020190100140100001111.txt
-new -> LE1008105265020190100140100001111.txt
-*/
+
+// http://orientacion.sunat.gob.pe/index.php/empresas-menu/libros-y-registros-vinculados-asuntos-tributarios-empresas/preguntas-frecuentes-libros-y-registros
