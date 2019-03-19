@@ -2,17 +2,14 @@
 
 const moment = require('moment')
 
-const BOOK_CODES = require('../lib/constants/BookCodes')
-const CURRENCY_CODES = require('../lib/constants/CurrencyCodes')
-
 const ElectronicBookName = require('../lib/BookName')
 
 const bookName = new ElectronicBookName(
   '10081052650',
   moment('2019-01', 'YYYY-MM'),
-  BOOK_CODES.sales,
+  '140100',
   true,
-  CURRENCY_CODES.PEN
+  'PEN'
 )
 
 console.log(bookName.getText())

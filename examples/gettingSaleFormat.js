@@ -2,10 +2,6 @@
 
 const moment = require('moment')
 
-const CURRENCY_CODES = require('../lib/constants/CurrencyCodes')
-const TAXPAYER_REGIMEN_CODES = require('../lib/constants/TaxpayerRegimenCodes')
-const ELECTRONIC_DOCUMENT_TYPES = require('../lib/constants/ElectronicDocumentTypes')
-
 const Tax = require('../lib/Tax')
 const CPE = require('../lib/CPE')
 const Sale = require('../lib/Sale')
@@ -76,7 +72,7 @@ eSale5.payableAmount = 10
 
 const eSale6 = new Sale()
 
-eSale6.sequential = 5
+eSale6.sequential = 6
 eSale6.accountingPeriod = period
 eSale6.taxpayerRegimenCode = 'RER'
 eSale6.cpe = new CPE('07', 'FT02', 3, moment('2019-01-10', 'YYYY-MM-DD'))
