@@ -26,7 +26,7 @@ saleBook.addSale({
     serial: 'FT02',
     number: 1,
     issuanceDate: '2019-01-04',
-    expirationDate: null
+    //expirationDate: null
   },
   currency,
   customer,
@@ -40,7 +40,7 @@ saleBook.addSale({
     serial: 'FT02',
     number: 2,
     issuanceDate: '2019-01-08',
-    expirationDate: null
+    //expirationDate: null
   },
   currency,
   customer,
@@ -54,7 +54,7 @@ saleBook.addSale({
     serial: 'FT02',
     number: 3,
     issuanceDate: '2019-01-09',
-    expirationDate: null
+    //expirationDate: null
   },
   currency,
   customer,
