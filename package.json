@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jldamians/accounting-electronic-book#readme",
   "dependencies": {
+    "joi": "^14.3.1",
     "moment": "^2.24.0"
   }
 }
