@@ -1,5 +1,5 @@
 {
-  "name": "accounting-electronic-book",
+  "name": "electronic-books",
   "version": "1.0.0",
   "description": "Generar los libros electrónicos del contribuyente",
   "main": "./lib/index.js",
@@ -12,15 +12,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jldamians/accounting-electronic-book.git"
+    "url": "git+https://github.com/jldamians/electronic-books.git"
   },
-  "keywords": [],
+  "keywords": [
+    "PLE",
+    "LE",
+    "SUNAT",
+    "Libros Contables",
+    "Libros Electrónicos"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jldamians/accounting-electronic-book/issues"
+    "url": "https://github.com/jldamians/electronic-books/issues"
   },
-  "homepage": "https://github.com/jldamians/accounting-electronic-book#readme",
+  "homepage": "https://github.com/jldamians/electronic-books#readme",
   "dependencies": {
     "joi": "^14.3.1",
     "moment": "^2.24.0"
