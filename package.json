@@ -29,6 +29,7 @@
   "homepage": "https://github.com/jldamians/electronic-books#readme",
   "dependencies": {
     "joi": "^14.3.1",
+    "mkdirp": "^0.5.1",
     "moment": "^2.24.0"
   }
 }
