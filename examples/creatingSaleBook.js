@@ -20,7 +20,7 @@ const currency = {
   exchangeRate: 1
 }
 
-saleBook.addSale({
+saleBook.addContent({
   cpe: {
     type: '01',
     serial: 'FT02',
@@ -34,7 +34,7 @@ saleBook.addSale({
   payableAmount: 38
 })
 
-saleBook.addSale({
+saleBook.addContent({
   cpe: {
     type: '01',
     serial: 'FT02',
@@ -48,7 +48,7 @@ saleBook.addSale({
   payableAmount: 21
 })
 
-saleBook.addSale({
+saleBook.addContent({
   cpe: {
     type: '01',
     serial: 'FT02',
@@ -62,7 +62,7 @@ saleBook.addSale({
   payableAmount: 34
 })
 
-saleBook.addSale({
+saleBook.addContent({
   cpe: {
     type: '07',
     serial: 'FT02',
@@ -86,7 +86,7 @@ saleBook.addSale({
   payableAmount: 11.80
 })
 
-saleBook.addSale({
+saleBook.addContent({
   cpe: {
     type: '07',
     serial: 'FT02',
@@ -106,7 +106,7 @@ saleBook.addSale({
   payableAmount: 10.00
 })
 
-saleBook.addSale({
+saleBook.addContent({
   cpe: {
     type: '07',
     serial: 'FT02',
