@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node /lib/index.js",
-    "test": "jasmine"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,9 @@
     "joi": "^14.3.1",
     "mkdirp": "^0.5.1",
     "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.2"
   }
 }
