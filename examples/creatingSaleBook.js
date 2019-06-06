@@ -2,11 +2,14 @@
 
 const SalesBook = require('../lib/SalesBook')
 
+const taxpayer = {
+  identityType: '6',
+  identityNumber: '10094688685',
+  name: 'AQUINO TRUJILLO NEYER MARCOS'
+}
+
 const saleBook = new SalesBook(
-  '10094688685',
-  'RER',
-  '201901',
-  'PEN'
+  taxpayer, 'RER', '201901', 'PEN'
 )
 
 const customer = {
