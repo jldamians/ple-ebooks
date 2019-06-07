@@ -1,5 +1,5 @@
 {
-  "name": "electronic-books",
+  "name": "ple-ebooks",
   "version": "1.0.0",
   "description": "Generar los libros electrónicos del contribuyente",
   "main": "./lib/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jldamians/electronic-books.git"
+    "url": "git+https://github.com/jldamians/ple-ebooks.git"
   },
   "keywords": [
     "PLE",
@@ -21,12 +21,12 @@
     "Libros Contables",
     "Libros Electrónicos"
   ],
-  "author": "",
+  "author": "jldamians <jlds161089@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jldamians/electronic-books/issues"
+    "url": "https://github.com/jldamians/ple-ebooks/issues"
   },
-  "homepage": "https://github.com/jldamians/electronic-books#readme",
+  "homepage": "https://github.com/jldamians/ple-ebooks#readme",
   "dependencies": {
     "joi": "^14.3.1",
     "mkdirp": "^0.5.1",
